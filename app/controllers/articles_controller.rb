@@ -6,8 +6,8 @@ class ArticlesController < ApplicationController
   end 
 
   def show
-    @course = Article.find_by(id: params[:id])
-    render json: @course 
+    @article = Article.find_by(id: params[:id])
+    render json: @article
   end
 
   def create
