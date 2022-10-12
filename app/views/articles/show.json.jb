@@ -3,6 +3,7 @@
   title: @article.title,
   content: @article.content,
   author: @article.author,
+  category: @article.category,
   published_at: @article.published_at
 
 }
