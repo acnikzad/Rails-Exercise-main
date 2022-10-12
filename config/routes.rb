@@ -5,7 +5,8 @@ Rails.application.routes.draw do
     get "/articles" => "articles#index"
     get "/articles/:id" => "articles#show"
     post "/articles" => "articles#create"
-    patch "/articles/:id" => "articles#update"
-    delete "/articles/:id" => "articles#destroy"
+    put "/articles" => "articles#update"
+    patch "/articles" => "articles#update"
+    delete "/articles" => "articles#destroy"
   # end
 end

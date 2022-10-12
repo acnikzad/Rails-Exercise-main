@@ -19,7 +19,7 @@ class ArticlesController < ApplicationController
       published_at: params[:published_at]
       )
     @article.save
-    render :show
+    render
   end
 
   def update
